@@ -9,6 +9,7 @@ public class ArrayExample7 {
 		int lnth = getLastDay(month);
 		int[] intAry = new int[lnth];
 		
+		// 배열값을 지정.
 		for (int i = 0; i < intAry.length; i++) {
 			intAry[i] = i+1;
 		}
