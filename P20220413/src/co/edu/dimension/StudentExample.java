@@ -26,10 +26,11 @@ public class StudentExample {
 		
 		Scanner scn = new Scanner(System.in);
 		System.out.println("학생이름 입력>> ");
-		int searchName = scn.nextLine();
+		
+		int searchAge = 24;
 		for (int i = 0; i < students.length; i++) {
-			if(students[i].age.equals(int)(serachAge)) {
-				System.out.println(students[i].age);
+			if(students[i].age > 24) {
+				System.out.println(students[i].studName+students[i].age);
 			}
 		}
 		
