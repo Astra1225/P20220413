@@ -25,7 +25,6 @@ public class Exam06 {
 					continue;
 				}
 			}
-			
 			if(selectNo == 1) {  //학생수 입력.
 				//작성 위치
 				System.out.print("학생수> ");
@@ -44,7 +43,6 @@ public class Exam06 {
 
 			}
 			}else if(selectNo == 4) {
-				
 				
 				int maxVal, sum;
 				maxVal = sum = 0;
